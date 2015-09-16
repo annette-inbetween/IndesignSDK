@@ -75,7 +75,7 @@ DECLARE_PMID(kClassIDSpace, kMyStartupShutdownBoss, kMP1Prefix + 2)
 
 
 // InterfaceIDs:
-//DECLARE_PMID(kInterfaceIDSpace, IID_IMP1INTERFACE, kMP1Prefix + 0)
+DECLARE_PMID(kInterfaceIDSpace, IID_IMYOBSERVER, kMP1Prefix + 0)
 //DECLARE_PMID(kInterfaceIDSpace, IID_IMP1INTERFACE, kMP1Prefix + 1)
 //DECLARE_PMID(kInterfaceIDSpace, IID_IMP1INTERFACE, kMP1Prefix + 2)
 //DECLARE_PMID(kInterfaceIDSpace, IID_IMP1INTERFACE, kMP1Prefix + 3)
@@ -105,7 +105,7 @@ DECLARE_PMID(kClassIDSpace, kMyStartupShutdownBoss, kMP1Prefix + 2)
 
 // ImplementationIDs:
 DECLARE_PMID(kImplementationIDSpace, kMyObserverImpl, kMP1Prefix + 0)
-//DECLARE_PMID(kImplementationIDSpace, kMP1Impl, kMP1Prefix + 1)
+DECLARE_PMID(kImplementationIDSpace, kMyStartupShutdownServiceImpl, kMP1Prefix + 1)
 //DECLARE_PMID(kImplementationIDSpace, kMP1Impl, kMP1Prefix + 2)
 //DECLARE_PMID(kImplementationIDSpace, kMP1Impl, kMP1Prefix + 3)
 //DECLARE_PMID(kImplementationIDSpace, kMP1Impl, kMP1Prefix + 4)

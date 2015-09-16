@@ -1,5 +1,6 @@
 #include "CObserver.h"
 
+
 class MyObserverImpl : public CObserver
 {
 public:

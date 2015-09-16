@@ -45,7 +45,7 @@
 #include "GenericID.h"
 #include "ShuksanID.h"
 #include "TextID.h"
-
+#include "DocumentID.h"
 
 #ifdef __ODFRC__
 
@@ -101,7 +101,7 @@ resource ClassDescriptionTable(kSDKDefClassDescriptionTableResourceID)
 		kDocBoss,
 		kInvalidClass,
 		{
-			IID_ICSDTPOBSERVER, kMyObserverImpl,
+			IID_IMYOBSERVER, kMyObserverImpl,
 		}
 	}
 
