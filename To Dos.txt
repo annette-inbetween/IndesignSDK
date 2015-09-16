@@ -1,0 +1,15 @@
+Steps
+1. Rename all .props file to .sdk.props
+2. Open MyPluing1CPP.rsp 
+	Change /I "..\..\..\plugin\external\asl\boost_libraries"
+/I "..\..\..\plugin\external\asl\adobe_source_libraries"
+
+to 
+/I "..\..\..\plugin\external\dva\third_party\boost_libraries"
+/I "..\..\..\plugin\external\dva\third_party\adobe_source_libraries"
+
+3. Delete all .fr files except MP1.fr
+
+4. After opening the project 
+	right click -> properties -> go to VC++ Directories -> Executable Directories to D:\plugin\devtools\bin
+5. Go to Linker>Input > additional Dependencies D:\plugin\external\dva\third_party\boost_libraries\bin.v2\libs\boost_system\lib\win\release\64\boost_system.lib

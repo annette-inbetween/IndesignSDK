@@ -41,3 +41,10 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+MyPlugin1/header/MP1ID.h~RF149b36f3.TMP
+*.props
+MyPlugin1/MyPluing1.sdf
+*.suo
+MyPlugin1/MyPluing1.vcxproj
+*.user
+MyPlugin1/MyPluing1.vcxproj.filters
