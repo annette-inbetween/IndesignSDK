@@ -103,6 +103,16 @@ resource ClassDescriptionTable(kSDKDefClassDescriptionTableResourceID)
 		{
 			IID_IMYOBSERVER, kMyObserverImpl,
 		}
+	},
+
+	Class 
+	{
+		kMyResponderServiceBoss,
+		kInvalidClass,
+		{
+			IID_IK2SERVICEPROVIDER,	kMyServiceProviderImpl,
+			IID_IRESPONDER,	kMyResponderImpl,
+		}
 	}
 
 }}};
