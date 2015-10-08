@@ -25,3 +25,4 @@ REGISTER_PMINTERFACE(MyStartupShutdownServiceImpl, kMyStartupShutdownServiceImpl
 REGISTER_PMINTERFACE(MyObserverImpl, kMyObserverImpl)
 REGISTER_PMINTERFACE(MyServiceProviderImpl, kMyServiceProviderImpl)
 REGISTER_PMINTERFACE(MyResponderImpl, kMyResponderImpl)
+REGISTER_PMINTERFACE(MyTextCommandPostProcessImpl, kMyTextCommandPostProcessImpl)

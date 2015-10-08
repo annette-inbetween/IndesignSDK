@@ -46,6 +46,7 @@
 #include "ShuksanID.h"
 #include "TextID.h"
 #include "DocumentID.h"
+#include "TextId.h"
 
 #ifdef __ODFRC__
 
@@ -112,6 +113,16 @@ resource ClassDescriptionTable(kSDKDefClassDescriptionTableResourceID)
 		{
 			IID_IK2SERVICEPROVIDER,	kMyServiceProviderImpl,
 			IID_IRESPONDER,	kMyResponderImpl,
+		}
+	},
+
+	Class 
+	{
+		kMyTextCommandPostProcessServiceBoss,
+		kInvalidClass,
+		{
+			IID_IK2SERVICEPROVIDER,	kTextPostProcessService,
+			IID_ITEXTEDITPOSTPROCESS, kMyTextCommandPostProcessImpl,
 		}
 	}
 
